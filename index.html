@@ -34,6 +34,7 @@
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
+
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -48,6 +49,83 @@
             </li>
           </ul>
         </address>
+
+        <button class="menu-btm" type="button">
+          <svg class=".menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-hero-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu">
+        <div class="container mob-menu-container">
+          <button class="mob-menu-close">
+            <svg class="icon-menu" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
+          <nav class="mob-nav">
+            <ul class="mob-list">
+              <li class="mob-item">
+                <a class="mob-link link-mob-start" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-item">
+                <a class="mob-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-item"><a class="mob-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <address class="contacts-mobile">
+            <ul class="mob-contacts-list">
+              <li class="mob-contacts-item">
+                <a class="mob-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-contacts-item">
+                <a class="mob-contacts-link link-mob" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          
+          <ul class="icon-list-footer">
+            <li class="icon-item-footer">
+              <a href="" class="icon-link-footer">
+                <svg class="icon-social-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item-footer">
+              <a href="" class="icon-link-footer">
+                <svg class="icon-social-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item-footer">
+              <a href="" class="icon-link-footer">
+                <svg class="icon-social-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item-footer">
+              <a href="" class="icon-link-footer">
+                <svg class="icon-social-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+        </div>
       </div>
     </header>
     <main>
@@ -294,7 +372,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -420,9 +498,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-footer-div">
         <div class="footer-container">
           <a class="footer-link logo" href="./index.html"
@@ -487,8 +565,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-open">
+    </footer> -->
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="icon-modal" width="8" height="8">
@@ -560,8 +638,10 @@
               ><span class="check-span"
                 ><svg class="" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="link-check" href="">Privacy Policy</a></label
+              ><span class="text-span">
+                I accept the terms and conditions of the
+                <a class="link-check" href="">Privacy Policy</a>
+              </span></label
             >
           </div>
           <button type="submit" class="modal-button">Send</button>
